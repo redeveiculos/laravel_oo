@@ -38,7 +38,7 @@ class Pessoa {
     }
 
     public function getNome() {
-        return $this->nome;
+        return strtoupper($this->nome);
     }
 
     public function setNome($nome) {
