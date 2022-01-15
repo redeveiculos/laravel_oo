@@ -94,4 +94,20 @@ echo $pessoa1->getEstado();
 echo "<br />";
 echo $pessoa1->correr();
 
+$pessoa2 = new Pessoa();
+$pessoa2->setNome("");
+$pessoa2->setSexo("Masculino");
+$pessoa2->setCidade("Rio de Janeiro");
+$pessoa2->setEstado("RJ");
+
+echo $pessoa2->getNome();
+echo "<br />";
+echo $pessoa2->getSexo();
+echo "<br />";
+echo $pessoa2->getCidade();
+echo "<br />";
+echo $pessoa2->getEstado();
+echo "<br />";
+echo $pessoa2->correr();
+
 ?>
