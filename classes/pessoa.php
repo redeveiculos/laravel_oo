@@ -94,6 +94,9 @@ echo $pessoa1->getEstado();
 echo "<br />";
 echo $pessoa1->correr();
 
+echo "<br />";
+echo "<br />";
+
 $pessoa2 = new Pessoa();
 $pessoa2->setNome("");
 $pessoa2->setSexo("Masculino");
